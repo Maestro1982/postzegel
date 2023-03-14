@@ -1,12 +1,15 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-import Navbar from './components/Navbar';
+import MainLayout from './components/MainLayout';
 import './index.css';
+import Home from './pages/Home';
 
 const App = () => {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path='/' element={<Navbar />}></Route>
+        <Route path='/' element={<MainLayout />}>
+          <Route path='/' element={<Home />} />
+        </Route>
       </Routes>
     </BrowserRouter>
   );
