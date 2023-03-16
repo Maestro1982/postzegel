@@ -21,7 +21,7 @@ const Navbar = () => {
             <span className='underline-animation'></span>
           </li>
           <li className='relative group'>
-            <a href='/registeren' className='link'>
+            <a href='/registreren' className='link'>
               Registreren
             </a>
             <span className='underline-animation'></span>
@@ -49,7 +49,7 @@ const Navbar = () => {
                 <span className='underline-animation'></span>
               </li>
               <li className='relative group'>
-                <a href='/registeren' className='link'>
+                <a href='/registreren' className='link'>
                   Registreren
                 </a>
                 <span className='underline-animation'></span>
