@@ -20,4 +20,12 @@
   .underline-animation {
     @apply absolute -bottom-[2px] left-0 w-0 h-[1px] bg-[#b5d6b2] transition-all group-hover:w-full;
   }
+
+  .input-field {
+    @apply bg-[#f8f5dc] outline-none w-[90%] ml-2 rounded-sm pl-1;
+  }
+
+  .button {
+    @apply w-24 md:w-32 mb-4 text-[#53131e] border-[1px] border-[#b5d6b2] p-1 rounded-sm bg-[#fffacc] hover:bg-[#b5d6b2] hover:border-[1px] hover:border-[#fffacc];
+  }
 }
