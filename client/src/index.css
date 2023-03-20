@@ -28,8 +28,4 @@
   .button {
     @apply w-24 md:w-32 mb-4 text-[#53131e] border-[1px] border-[#b5d6b2] p-1 rounded-sm bg-[#fffacc] hover:bg-[#b5d6b2] hover:border-[1px] hover:border-[#fffacc];
   }
-
-  .card {
-    @apply flex-col w-[150px] flex items-center max-w-7xl mx-auto border-[1px] border-[#53131e] shadow-lg;
-  }
 }
