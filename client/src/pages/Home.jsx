@@ -4,11 +4,11 @@ import { stamps } from '../constants';
 
 const Home = () => {
   return (
-    <div className='h-screen mx-auto px-8'>
+    <div className='h-screen overflow-auto'>
       <div>
         <SearchInput />
       </div>
-      <div className='flex flex-wrap items-center gap-2 mt-5'>
+      <div className='flex flex-wrap justify-center gap-2 mt-5'>
         {stamps.map((stamp) => (
           <StampCard key={stamp.id} {...stamp} />
         ))}

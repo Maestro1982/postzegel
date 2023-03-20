@@ -15,7 +15,7 @@ const StampCard = ({
   onLetterCatalogPrice,
   onLetterSalesPrice,
 }) => {
-  const isAvailable = false;
+  const isAvailable = true;
   return (
     <div className='p-2 bg-[#ddf8db] rounded-lg shadow-lg w-72'>
       <img
@@ -37,12 +37,17 @@ const StampCard = ({
         <h6 className='text-[13px] font-medium pl-5'>
           €{postFreshCatalogPrice.toFixed(2)}
         </h6>
-        <h6 className='text-[13px] font-medium pl-[75px]'>
+        <h6 className='text-[13px] font-medium pl-[76px]'>
           €{postFreshSalesPrice.toFixed(2)}
         </h6>
         <div className='pl-6 flex justify-center items-center'>
           {isAvailable ? (
-            <FaHeart size={13} />
+            <FaHeart
+              size={13}
+              color='#5a464c'
+              className='hover:fill-red-600 cursor-pointer'
+              onClick={() => {}}
+            />
           ) : (
             <RxCross2 size={13} color='red' />
           )}
@@ -53,12 +58,17 @@ const StampCard = ({
         <h6 className='text-[13px] font-medium pl-2'>
           €{hingeCatalogPrice.toFixed(2)}
         </h6>
-        <h6 className='text-[13px] font-medium pl-[78px]'>
+        <h6 className='text-[13px] font-medium pl-[79px]'>
           €{hingeSalesPrice.toFixed(2)}
         </h6>
         <div className='pl-6 flex justify-center items-center'>
           {isAvailable ? (
-            <FaHeart size={13} />
+            <FaHeart
+              size={13}
+              color='#5a464c'
+              className='hover:fill-red-600 cursor-pointer'
+              onClick={() => {}}
+            />
           ) : (
             <RxCross2 size={13} color='red' />
           )}
@@ -69,12 +79,17 @@ const StampCard = ({
         <h6 className='text-[13px] font-medium pl-2'>
           €{stampedCatalogPrice.toFixed(2)}
         </h6>
-        <h6 className='text-[13px] font-medium pl-[77px]'>
+        <h6 className='text-[13px] font-medium pl-[78px]'>
           €{stampedSalesPrice.toFixed(2)}
         </h6>
         <div className='pl-6 flex justify-center items-center'>
           {isAvailable ? (
-            <FaHeart size={13} />
+            <FaHeart
+              size={13}
+              color='#5a464c'
+              className='hover:fill-red-600 cursor-pointer'
+              onClick={() => {}}
+            />
           ) : (
             <RxCross2 size={13} color='red' />
           )}
@@ -85,12 +100,17 @@ const StampCard = ({
         <h6 className='text-[13px] font-medium pl-[18px]'>
           €{onLetterCatalogPrice.toFixed(2)}
         </h6>
-        <h6 className='text-[13px] font-medium pl-[76px]'>
+        <h6 className='text-[13px] font-medium pl-[77px]'>
           €{onLetterSalesPrice.toFixed(2)}
         </h6>
         <div className='pl-6 flex justify-center items-center'>
           {isAvailable ? (
-            <FaHeart size={13} />
+            <FaHeart
+              size={13}
+              color='#5a464c'
+              className='hover:fill-red-600 cursor-pointer'
+              onClick={() => {}}
+            />
           ) : (
             <RxCross2 size={13} color='red' />
           )}
