@@ -29,10 +29,10 @@ const StampCard = ({
       <h4 className='text-[11px] text-center'>{typeOfCollection}</h4>
       <h5 className='text-[11px] text-center'>{year}</h5>
       <div className='flex flex-row justify-evenly'>
-        <h5 className='text-[12px]'>Cat. prijs</h5>
-        <h5 className='text-[12px]'>Verk. prijs</h5>
+        <h5 className='text-[12px] underline'>Cat. prijs</h5>
+        <h5 className='text-[12px] underline'>Verk. prijs</h5>
       </div>
-      <div className='flex flex-row text-justify items-center'>
+      <div className='flex flex-row text-justify items-center mt-2'>
         <h6 className='text-[11px]'>Postfris:</h6>
         <h6 className='text-[13px] font-medium pl-5'>
           €{postFreshCatalogPrice.toFixed(2)}
@@ -82,10 +82,10 @@ const StampCard = ({
       </div>
       <div className='flex flex-row text-justify items-center'>
         <h6 className='text-[11px]'>Op brief:</h6>
-        <h6 className='text-[13px] font-medium pl-4'>
+        <h6 className='text-[13px] font-medium pl-[18px]'>
           €{onLetterCatalogPrice.toFixed(2)}
         </h6>
-        <h6 className='text-[13px] font-medium pl-[78px]'>
+        <h6 className='text-[13px] font-medium pl-[76px]'>
           €{onLetterSalesPrice.toFixed(2)}
         </h6>
         <div className='pl-6 flex justify-center items-center'>
