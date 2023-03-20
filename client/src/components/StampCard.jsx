@@ -15,7 +15,7 @@ const StampCard = ({
   onLetterCatalogPrice,
   onLetterSalesPrice,
 }) => {
-  const isAvailable = true;
+  const isAvailable = false;
   return (
     <div className='p-2 bg-[#ddf8db] rounded-lg shadow-lg w-72'>
       <img
